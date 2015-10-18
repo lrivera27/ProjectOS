@@ -121,7 +121,7 @@
             // backBtn
             // 
             this.backBtn.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.backBtn.Location = new System.Drawing.Point(815, 592);
+            this.backBtn.Location = new System.Drawing.Point(737, 552);
             this.backBtn.Name = "backBtn";
             this.backBtn.Size = new System.Drawing.Size(144, 47);
             this.backBtn.TabIndex = 1;
@@ -140,7 +140,8 @@
             // 
             // outputBtn
             // 
-            this.outputBtn.Location = new System.Drawing.Point(12, 592);
+            this.outputBtn.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.outputBtn.Location = new System.Drawing.Point(70, 552);
             this.outputBtn.Name = "outputBtn";
             this.outputBtn.Size = new System.Drawing.Size(169, 52);
             this.outputBtn.TabIndex = 8;
@@ -156,7 +157,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 10F);
             this.groupBox1.Location = new System.Drawing.Point(12, 139);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(366, 394);
+            this.groupBox1.Size = new System.Drawing.Size(366, 283);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CPU Monitor";
@@ -205,7 +206,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 10F);
             this.groupBox2.Location = new System.Drawing.Point(593, 139);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(366, 394);
+            this.groupBox2.Size = new System.Drawing.Size(366, 283);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "RAM Monitor";
@@ -240,7 +241,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(181, 104);
+            this.textBox2.Location = new System.Drawing.Point(238, 104);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(118, 28);
             this.textBox2.TabIndex = 8;
