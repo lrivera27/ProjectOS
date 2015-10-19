@@ -25,6 +25,9 @@ namespace Squashids
                 mainMenu ss = new mainMenu(); 
                 this.Hide(); 
                 ss.Show(); 
+            } else
+            {
+                MessageBox.Show("Error: Invalid Username and/or Password");
             }
         }
     }
