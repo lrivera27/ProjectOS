@@ -31,7 +31,7 @@ namespace Squashids
             ramThread.Start();
         }
 
-        private void exitBtn_Click(object sender, EventArgs e)
+        private void exitBtn_Click(object sender, EventArgs e) // exit_button Test
         {
             loginForm ss = new loginForm();
             this.Close();
