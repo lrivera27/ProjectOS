@@ -19,11 +19,12 @@ namespace Squashids
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
+            //Placeholder until database is implemented
             if(textBox1.Text == "user" && textBox2.Text == "123")
             {
-                mainMenu ss = new mainMenu();
-                this.Hide();
-                ss.Show(); //Shows new form test
+                mainMenu ss = new mainMenu(); 
+                this.Hide(); 
+                ss.Show(); 
             }
         }
     }
