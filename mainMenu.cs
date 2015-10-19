@@ -63,6 +63,7 @@ namespace Squashids
             {
                 var unused = cpuCounter.NextValue(); // first call will always return 0
                 Thread.Sleep(1000); // wait a second, then try again
+
                 cpuUsageTxt.Invoke((Action)delegate
                 {
                     cpuUsageTxt.Text = cpuCounter.NextValue() + "%";
