@@ -23,7 +23,7 @@ namespace Squashids
             {
                 mainMenu ss = new mainMenu();
                 this.Hide();
-                ss.Show(); //Shows new form
+                ss.Show(); //Shows new form test
             }
         }
     }
