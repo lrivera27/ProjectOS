@@ -33,10 +33,15 @@
             this.aboutBtn = new System.Windows.Forms.Button();
             this.exitBtn = new System.Windows.Forms.Button();
             this.hidsPanel = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.ramWarTxt = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.ramMonitorTxt = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -44,20 +49,21 @@
             this.cpuUsageTxt = new System.Windows.Forms.TextBox();
             this.outputBtn = new System.Windows.Forms.Button();
             this.backBtn = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.nidsBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.nidsBtn = new System.Windows.Forms.Button();
+            this.nidsPanel = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.hidsPanel.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.nidsPanel.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -118,6 +124,29 @@
             this.hidsPanel.TabIndex = 5;
             this.hidsPanel.Visible = false;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(200)))), ((int)(((byte)(181)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(971, 100);
+            this.panel1.TabIndex = 14;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(200)))), ((int)(((byte)(181)))));
+            this.label2.Font = new System.Drawing.Font("Tahoma", 20F);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
+            this.label2.Location = new System.Drawing.Point(220, 21);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(540, 41);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Hosted Intrusion Detection System";
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
@@ -136,6 +165,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "RAM Monitor";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 15F);
+            this.label3.Location = new System.Drawing.Point(6, 169);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(117, 30);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Warnings";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -150,22 +189,43 @@
             // 
             this.ramWarTxt.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ramWarTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ramWarTxt.Enabled = false;
             this.ramWarTxt.Location = new System.Drawing.Point(144, 169);
             this.ramWarTxt.Multiline = true;
             this.ramWarTxt.Name = "ramWarTxt";
+            this.ramWarTxt.ReadOnly = true;
             this.ramWarTxt.Size = new System.Drawing.Size(253, 171);
             this.ramWarTxt.TabIndex = 9;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Tahoma", 15F);
+            this.button1.Location = new System.Drawing.Point(-534, -10);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(479, 222);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Hosted IDS";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.hidsBtn_Click);
             // 
             // ramMonitorTxt
             // 
             this.ramMonitorTxt.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ramMonitorTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ramMonitorTxt.Enabled = false;
             this.ramMonitorTxt.Location = new System.Drawing.Point(238, 104);
             this.ramMonitorTxt.Name = "ramMonitorTxt";
+            this.ramMonitorTxt.ReadOnly = true;
             this.ramMonitorTxt.Size = new System.Drawing.Size(159, 28);
             this.ramMonitorTxt.TabIndex = 8;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Tahoma", 20F);
+            this.label5.Location = new System.Drawing.Point(-534, -106);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(518, 41);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Intrusion Detection System Menu";
             // 
             // groupBox1
             // 
@@ -207,10 +267,10 @@
             // 
             this.proWarTxt.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.proWarTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.proWarTxt.Enabled = false;
             this.proWarTxt.Location = new System.Drawing.Point(144, 169);
             this.proWarTxt.Multiline = true;
             this.proWarTxt.Name = "proWarTxt";
+            this.proWarTxt.ReadOnly = true;
             this.proWarTxt.Size = new System.Drawing.Size(261, 171);
             this.proWarTxt.TabIndex = 9;
             // 
@@ -218,9 +278,9 @@
             // 
             this.cpuUsageTxt.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cpuUsageTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cpuUsageTxt.Enabled = false;
             this.cpuUsageTxt.Location = new System.Drawing.Point(250, 104);
             this.cpuUsageTxt.Name = "cpuUsageTxt";
+            this.cpuUsageTxt.ReadOnly = true;
             this.cpuUsageTxt.Size = new System.Drawing.Size(155, 28);
             this.cpuUsageTxt.TabIndex = 8;
             // 
@@ -245,29 +305,6 @@
             this.backBtn.UseVisualStyleBackColor = true;
             this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(200)))), ((int)(((byte)(181)))));
-            this.label2.Font = new System.Drawing.Font("Tahoma", 20F);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
-            this.label2.Location = new System.Drawing.Point(220, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(540, 41);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Hosted Intrusion Detection System";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(200)))), ((int)(((byte)(181)))));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(971, 100);
-            this.panel1.TabIndex = 14;
-            // 
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
@@ -282,37 +319,6 @@
             this.mainPanel.Size = new System.Drawing.Size(971, 651);
             this.mainPanel.TabIndex = 1;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 20F);
-            this.label5.Location = new System.Drawing.Point(-534, -106);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(518, 41);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Intrusion Detection System Menu";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Tahoma", 15F);
-            this.button1.Location = new System.Drawing.Point(-534, -10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(479, 222);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Hosted IDS";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.hidsBtn_Click);
-            // 
-            // nidsBtn
-            // 
-            this.nidsBtn.Font = new System.Drawing.Font("Tahoma", 15F);
-            this.nidsBtn.Location = new System.Drawing.Point(12, 159);
-            this.nidsBtn.Name = "nidsBtn";
-            this.nidsBtn.Size = new System.Drawing.Size(479, 222);
-            this.nidsBtn.TabIndex = 5;
-            this.nidsBtn.Text = "Network IDS";
-            this.nidsBtn.UseVisualStyleBackColor = true;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(200)))), ((int)(((byte)(181)))));
@@ -324,15 +330,61 @@
             this.panel2.Size = new System.Drawing.Size(971, 100);
             this.panel2.TabIndex = 15;
             // 
-            // label3
+            // nidsBtn
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 15F);
-            this.label3.Location = new System.Drawing.Point(6, 169);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(117, 30);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Warnings";
+            this.nidsBtn.Font = new System.Drawing.Font("Tahoma", 15F);
+            this.nidsBtn.Location = new System.Drawing.Point(12, 159);
+            this.nidsBtn.Name = "nidsBtn";
+            this.nidsBtn.Size = new System.Drawing.Size(479, 222);
+            this.nidsBtn.TabIndex = 5;
+            this.nidsBtn.Text = "Network IDS";
+            this.nidsBtn.UseVisualStyleBackColor = true;
+            this.nidsBtn.Click += new System.EventHandler(this.nidsBtn_Click);
+            // 
+            // nidsPanel
+            // 
+            this.nidsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
+            this.nidsPanel.Controls.Add(this.button2);
+            this.nidsPanel.Controls.Add(this.panel3);
+            this.nidsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.nidsPanel.Location = new System.Drawing.Point(0, 0);
+            this.nidsPanel.Name = "nidsPanel";
+            this.nidsPanel.Size = new System.Drawing.Size(971, 651);
+            this.nidsPanel.TabIndex = 1;
+            this.nidsPanel.Visible = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(200)))), ((int)(((byte)(181)))));
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(971, 100);
+            this.panel3.TabIndex = 16;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 20F);
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
+            this.label7.Location = new System.Drawing.Point(220, 21);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(571, 41);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Network Intrustion Detection System";
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.button2.Location = new System.Drawing.Point(815, 592);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(144, 47);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // mainMenu
             // 
@@ -341,19 +393,23 @@
             this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(971, 651);
             this.Controls.Add(this.hidsPanel);
+            this.Controls.Add(this.nidsPanel);
             this.Controls.Add(this.mainPanel);
             this.Name = "mainMenu";
             this.Text = "Main Menu";
             this.hidsPanel.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.mainPanel.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.nidsPanel.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -384,5 +440,9 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button nidsBtn;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel nidsPanel;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button2;
     }
 }

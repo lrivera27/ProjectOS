@@ -42,6 +42,7 @@ namespace Squashids
         {
             this.Text = "Main Menu";
             hidsPanel.Visible = false;
+            nidsPanel.Visible = false;
             mainPanel.Visible = true;
         }
 
@@ -79,6 +80,18 @@ namespace Squashids
                     ramMonitorTxt.Text = ramCounter.NextValue() + "MB";
                 });
             }
+        }
+
+        private void nidsBtn_Click(object sender, EventArgs e)
+        {
+            this.Text = "NIDS Menu";
+            mainPanel.Visible = false;
+            nidsPanel.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            backBtn_Click(sender, e);
         }
     }
 }
