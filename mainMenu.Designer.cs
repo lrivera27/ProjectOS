@@ -53,9 +53,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.nidsBtn = new System.Windows.Forms.Button();
             this.nidsPanel = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.hidsPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -158,9 +158,9 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 10F);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox2.Location = new System.Drawing.Point(546, 139);
+            this.groupBox2.Location = new System.Drawing.Point(12, 397);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(413, 359);
+            this.groupBox2.Size = new System.Drawing.Size(425, 212);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "RAM Monitor";
@@ -169,7 +169,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 15F);
-            this.label3.Location = new System.Drawing.Point(6, 169);
+            this.label3.Location = new System.Drawing.Point(7, 102);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(117, 30);
             this.label3.TabIndex = 12;
@@ -179,7 +179,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 15F);
-            this.label4.Location = new System.Drawing.Point(6, 96);
+            this.label4.Location = new System.Drawing.Point(7, 29);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(169, 30);
             this.label4.TabIndex = 10;
@@ -189,11 +189,11 @@
             // 
             this.ramWarTxt.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ramWarTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ramWarTxt.Location = new System.Drawing.Point(144, 169);
+            this.ramWarTxt.Location = new System.Drawing.Point(137, 102);
             this.ramWarTxt.Multiline = true;
             this.ramWarTxt.Name = "ramWarTxt";
             this.ramWarTxt.ReadOnly = true;
-            this.ramWarTxt.Size = new System.Drawing.Size(253, 171);
+            this.ramWarTxt.Size = new System.Drawing.Size(261, 76);
             this.ramWarTxt.TabIndex = 9;
             // 
             // button1
@@ -211,7 +211,7 @@
             // 
             this.ramMonitorTxt.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ramMonitorTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ramMonitorTxt.Location = new System.Drawing.Point(238, 104);
+            this.ramMonitorTxt.Location = new System.Drawing.Point(239, 37);
             this.ramMonitorTxt.Name = "ramMonitorTxt";
             this.ramMonitorTxt.ReadOnly = true;
             this.ramMonitorTxt.Size = new System.Drawing.Size(159, 28);
@@ -238,7 +238,7 @@
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox1.Location = new System.Drawing.Point(12, 139);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(425, 359);
+            this.groupBox1.Size = new System.Drawing.Size(425, 212);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CPU Monitor";
@@ -247,7 +247,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 15F);
-            this.label6.Location = new System.Drawing.Point(6, 169);
+            this.label6.Location = new System.Drawing.Point(9, 102);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(117, 30);
             this.label6.TabIndex = 12;
@@ -257,7 +257,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 15F);
-            this.label8.Location = new System.Drawing.Point(6, 96);
+            this.label8.Location = new System.Drawing.Point(9, 29);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(221, 30);
             this.label8.TabIndex = 10;
@@ -267,18 +267,18 @@
             // 
             this.proWarTxt.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.proWarTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.proWarTxt.Location = new System.Drawing.Point(144, 169);
+            this.proWarTxt.Location = new System.Drawing.Point(147, 102);
             this.proWarTxt.Multiline = true;
             this.proWarTxt.Name = "proWarTxt";
             this.proWarTxt.ReadOnly = true;
-            this.proWarTxt.Size = new System.Drawing.Size(261, 171);
+            this.proWarTxt.Size = new System.Drawing.Size(261, 76);
             this.proWarTxt.TabIndex = 9;
             // 
             // cpuUsageTxt
             // 
             this.cpuUsageTxt.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cpuUsageTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cpuUsageTxt.Location = new System.Drawing.Point(250, 104);
+            this.cpuUsageTxt.Location = new System.Drawing.Point(253, 37);
             this.cpuUsageTxt.Name = "cpuUsageTxt";
             this.cpuUsageTxt.ReadOnly = true;
             this.cpuUsageTxt.Size = new System.Drawing.Size(155, 28);
@@ -287,9 +287,9 @@
             // outputBtn
             // 
             this.outputBtn.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.outputBtn.Location = new System.Drawing.Point(70, 547);
+            this.outputBtn.Location = new System.Drawing.Point(743, 482);
             this.outputBtn.Name = "outputBtn";
-            this.outputBtn.Size = new System.Drawing.Size(169, 52);
+            this.outputBtn.Size = new System.Drawing.Size(144, 47);
             this.outputBtn.TabIndex = 8;
             this.outputBtn.Text = "Export Data";
             this.outputBtn.UseVisualStyleBackColor = true;
@@ -353,6 +353,17 @@
             this.nidsPanel.TabIndex = 1;
             this.nidsPanel.Visible = false;
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.button2.Location = new System.Drawing.Point(815, 592);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(144, 47);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(200)))), ((int)(((byte)(181)))));
@@ -374,17 +385,6 @@
             this.label7.Size = new System.Drawing.Size(571, 41);
             this.label7.TabIndex = 0;
             this.label7.Text = "Network Intrustion Detection System";
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.button2.Location = new System.Drawing.Point(815, 592);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 47);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // mainMenu
             // 
