@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.cancelBtn = new System.Windows.Forms.Button();
-            this.submitBtn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lastNameBox = new System.Windows.Forms.TextBox();
+            this.firstNameBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.passwordBox = new System.Windows.Forms.TextBox();
+            this.usernameBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.cancelBtn = new System.Windows.Forms.Button();
+            this.submitBtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -49,8 +49,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.lastNameBox);
+            this.groupBox1.Controls.Add(this.firstNameBox);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 15F);
@@ -62,10 +62,42 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Personal Info";
             // 
+            // lastNameBox
+            // 
+            this.lastNameBox.Location = new System.Drawing.Point(174, 114);
+            this.lastNameBox.Name = "lastNameBox";
+            this.lastNameBox.Size = new System.Drawing.Size(320, 38);
+            this.lastNameBox.TabIndex = 3;
+            // 
+            // firstNameBox
+            // 
+            this.firstNameBox.Location = new System.Drawing.Point(174, 48);
+            this.firstNameBox.Name = "firstNameBox";
+            this.firstNameBox.Size = new System.Drawing.Size(320, 38);
+            this.firstNameBox.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(36, 122);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(129, 30);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Last Name";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(36, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(132, 30);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "First Name";
+            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.passwordBox);
+            this.groupBox2.Controls.Add(this.usernameBox);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 15F);
@@ -76,6 +108,38 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Login Credentials";
+            // 
+            // passwordBox
+            // 
+            this.passwordBox.Location = new System.Drawing.Point(174, 118);
+            this.passwordBox.Name = "passwordBox";
+            this.passwordBox.Size = new System.Drawing.Size(320, 38);
+            this.passwordBox.TabIndex = 5;
+            // 
+            // usernameBox
+            // 
+            this.usernameBox.Location = new System.Drawing.Point(174, 52);
+            this.usernameBox.Name = "usernameBox";
+            this.usernameBox.Size = new System.Drawing.Size(320, 38);
+            this.usernameBox.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(36, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(118, 30);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Password";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(36, 55);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(123, 30);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Username";
             // 
             // cancelBtn
             // 
@@ -97,70 +161,7 @@
             this.submitBtn.TabIndex = 3;
             this.submitBtn.Text = "Submit";
             this.submitBtn.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(36, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "First Name";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 122);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 30);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Last Name";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(36, 126);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 30);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Password";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(36, 55);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 30);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Username";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(174, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(320, 38);
-            this.textBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(174, 114);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(320, 38);
-            this.textBox2.TabIndex = 3;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(174, 118);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(320, 38);
-            this.textBox3.TabIndex = 5;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(174, 52);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(320, 38);
-            this.textBox4.TabIndex = 4;
+            this.submitBtn.Click += new System.EventHandler(this.submitBtn_Click);
             // 
             // panel1
             // 
@@ -217,10 +218,10 @@
         private System.Windows.Forms.Button submitBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox lastNameBox;
+        private System.Windows.Forms.TextBox firstNameBox;
+        private System.Windows.Forms.TextBox passwordBox;
+        private System.Windows.Forms.TextBox usernameBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;

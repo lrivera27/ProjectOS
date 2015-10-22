@@ -22,5 +22,11 @@ namespace Squashids
         {
 
         }
+
+        private void submitBtn_Click(object sender, EventArgs e)
+        {
+            Program.user.firstName = firstNameBox.Text;
+            lastNameBox.Text = Program.user.firstName;
+        }
     }
 }

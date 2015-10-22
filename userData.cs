@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Squashids
 {
-    class userData
+    public class userData
     {
-        public string username = "Luis";
+        public string username = "Not Set";
+        public string password = "Not Set";
+        public string firstName = "Not Set";
+        public string secondName = "Not Set";
+        
 
-        public void saveUser()
-        {
-            
-        }
+        
     }
 }
