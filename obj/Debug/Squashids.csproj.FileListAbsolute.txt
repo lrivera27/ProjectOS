@@ -1,13 +1,3 @@
-c:\users\herpderp\documents\visual studio 2015\Projects\Squashids\bin\Debug\Squashids.exe.config
-C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\bin\Debug\Squashids.exe
-C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\bin\Debug\Squashids.pdb
-C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.csprojResolveAssemblyReference.cache
-C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.loginForm.resources
-C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.mainMenu.resources
-C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.Properties.Resources.resources
-C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.csproj.GenerateResource.Cache
-C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.exe
-C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.pdb
 C:\Users\arnal\Documents\acIDS\ProjectOS\bin\Debug\Squashids.exe.config
 C:\Users\arnal\Documents\acIDS\ProjectOS\obj\Debug\Squashids.exe
 C:\Users\arnal\Documents\acIDS\ProjectOS\obj\Debug\Squashids.pdb
@@ -18,4 +8,18 @@ C:\Users\arnal\Documents\acIDS\ProjectOS\obj\Debug\Squashids.loginForm.resources
 C:\Users\arnal\Documents\acIDS\ProjectOS\obj\Debug\Squashids.mainMenu.resources
 C:\Users\arnal\Documents\acIDS\ProjectOS\obj\Debug\Squashids.Properties.Resources.resources
 C:\Users\arnal\Documents\acIDS\ProjectOS\obj\Debug\Squashids.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.registrationForm.resources
+=======
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\bin\Debug\Squashids.exe.config
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\bin\Debug\Squashids.exe
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\bin\Debug\Squashids.pdb
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.csprojResolveAssemblyReference.cache
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.loginForm.resources
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.mainMenu.resources
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.Properties.Resources.resources
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.registrationForm.resources
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.csproj.GenerateResource.Cache
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.exe
+C:\Users\HerpDerp\documents\visual studio 2015\Projects\Squashids\obj\Debug\Squashids.pdb
+>>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b

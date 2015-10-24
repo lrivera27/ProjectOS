@@ -56,6 +56,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.hidsPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -112,6 +113,7 @@
             // hidsPanel
             // 
             this.hidsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
+            this.hidsPanel.Controls.Add(this.button3);
             this.hidsPanel.Controls.Add(this.panel1);
             this.hidsPanel.Controls.Add(this.groupBox2);
             this.hidsPanel.Controls.Add(this.groupBox1);
@@ -324,7 +326,6 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(200)))), ((int)(((byte)(181)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(971, 100);
@@ -386,14 +387,24 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Network Intrustion Detection System";
             // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.button3.Location = new System.Drawing.Point(593, 482);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(144, 47);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "Export Data";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // mainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(971, 651);
-            this.Controls.Add(this.hidsPanel);
             this.Controls.Add(this.nidsPanel);
+            this.Controls.Add(this.hidsPanel);
             this.Controls.Add(this.mainPanel);
             this.Name = "mainMenu";
             this.Text = "Main Menu";
@@ -444,5 +455,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
