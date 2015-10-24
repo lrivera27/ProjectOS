@@ -8,15 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Squashids
 {
     public partial class loginForm : Form
     {
+        
         public loginForm()
         {
             InitializeComponent();
         }
 
+        
         private void loginBtn_Click(object sender, EventArgs e)
         {
             //Placeholder until database is implemented
@@ -25,10 +28,19 @@ namespace Squashids
                 mainMenu ss = new mainMenu(); 
                 this.Hide(); 
                 ss.Show(); 
+
             } else
             {
                 MessageBox.Show("Error: Invalid Username and/or Password");
             }
+        }
+
+        private void registerBtn_Click(object sender, EventArgs e)
+        {
+            registrationForm ss = new registrationForm();
+            this.Hide();
+            ss.Show();
+            
         }
     }
 }
