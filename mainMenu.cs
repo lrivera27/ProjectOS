@@ -25,6 +25,7 @@ namespace Squashids
             hidsPanel.Visible = true;
             mainPanel.Visible = false;
             this.Text = "HIDS Menu";
+            
             Thread cpuThread = new Thread(new ThreadStart(cpuMonitoring));
             cpuThread.Start();
             Thread ramThread = new Thread(new ThreadStart(ramMonitoring));
@@ -44,6 +45,7 @@ namespace Squashids
             hidsPanel.Visible = false;
             nidsPanel.Visible = false;
             mainPanel.Visible = true;
+            done = false;
         }
 
         private void DoneUpdate(object sender, EventArgs e)
@@ -56,21 +58,36 @@ namespace Squashids
             cpuCounter.CategoryName = "Processor";
             cpuCounter.CounterName = "% Processor Time";
             cpuCounter.InstanceName = "_Total";
-
+            float _cpuCounter;
             backBtn.Click += DoneUpdate;
             done = false;
             while (!done)
             {
                 var unused = cpuCounter.NextValue(); // first call will always return 0
                 Thread.Sleep(1000); // wait a second, then try again
-
+                
                 cpuUsageTxt.Invoke((Action)delegate
                 {
-                    cpuUsageTxt.Text = cpuCounter.NextValue() + "%";
+                    _cpuCounter = cpuCounter.NextValue();
+                    cpuUsageTxt.Text = _cpuCounter + "%";
+                    anomalyCPU(_cpuCounter);
                 });
             }
         }
 
+        private void anomalyCPU(float percentageCPU)
+        {
+            if(percentageCPU > 30)
+            {
+                if(proWarTxt.Text.Length == 0)
+                {
+                    proWarTxt.Text = "Warning! CPU Usage: " + percentageCPU;
+                } else
+                {
+                    proWarTxt.AppendText("\r\n" + "Warning! CPU Usage: " + percentageCPU);
+                }
+            }
+        }
         private void ramMonitoring()
         {
             PerformanceCounter ramCounter = new PerformanceCounter("Memory", "Available MBytes");

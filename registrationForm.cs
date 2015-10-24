@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Squashids
 {
     public partial class registrationForm : Form
@@ -20,13 +21,19 @@ namespace Squashids
 
         private void cancelBtn_Click(object sender, EventArgs e)
         {
-
+            loginForm ss = new loginForm();
+            this.Close();
+            ss.Show();
         }
 
         private void submitBtn_Click(object sender, EventArgs e)
         {
             Program.user.firstName = firstNameBox.Text;
-            lastNameBox.Text = Program.user.firstName;
+            //Program.user.lastName = lastNameBox.Text;
+            //Program.user.username = usernameBox.Text;
+            //Program.user.password = passwordBox.Text;
+            
+
         }
     }
 }
