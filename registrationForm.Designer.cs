@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.submitBtn = new System.Windows.Forms.Button();
@@ -41,7 +41,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-=======
+//=======
             this.lastNameBox = new System.Windows.Forms.TextBox();
             this.firstNameBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -53,7 +53,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.submitBtn = new System.Windows.Forms.Button();
->>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
+//>>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -63,13 +63,13 @@
             // 
             // groupBox1
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox1);
-=======
+//=======
             this.groupBox1.Controls.Add(this.lastNameBox);
             this.groupBox1.Controls.Add(this.firstNameBox);
->>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
+//>>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 15F);
@@ -81,7 +81,7 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Personal Info";
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox3);
@@ -117,7 +117,7 @@
             this.submitBtn.TabIndex = 3;
             this.submitBtn.Text = "Submit";
             this.submitBtn.UseVisualStyleBackColor = true;
-=======
+//=======
             // lastNameBox
             // 
             this.lastNameBox.Location = new System.Drawing.Point(174, 114);
@@ -140,7 +140,7 @@
             this.label2.Size = new System.Drawing.Size(129, 30);
             this.label2.TabIndex = 1;
             this.label2.Text = "Last Name";
->>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
+//>>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
             // 
             // label1
             // 
@@ -151,7 +151,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "First Name";
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             // label2
             // 
             this.label2.AutoSize = true;
@@ -160,7 +160,7 @@
             this.label2.Size = new System.Drawing.Size(129, 30);
             this.label2.TabIndex = 1;
             this.label2.Text = "Last Name";
-=======
+//=======
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.passwordBox);
@@ -189,7 +189,7 @@
             this.usernameBox.Name = "usernameBox";
             this.usernameBox.Size = new System.Drawing.Size(320, 38);
             this.usernameBox.TabIndex = 4;
->>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
+//>>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
             // 
             // label3
             // 
@@ -209,7 +209,7 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Username";
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(174, 48);
@@ -237,7 +237,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(320, 38);
             this.textBox4.TabIndex = 4;
-=======
+//=======
             // cancelBtn
             // 
             this.cancelBtn.Font = new System.Drawing.Font("Tahoma", 10F);
@@ -259,7 +259,7 @@
             this.submitBtn.Text = "Submit";
             this.submitBtn.UseVisualStyleBackColor = true;
             this.submitBtn.Click += new System.EventHandler(this.submitBtn_Click);
->>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
+//>>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
             // 
             // panel1
             // 
@@ -316,17 +316,17 @@
         private System.Windows.Forms.Button submitBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-<<<<<<< HEAD
+//<<<<<<< HEAD
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
-=======
+//=======
         private System.Windows.Forms.TextBox lastNameBox;
         private System.Windows.Forms.TextBox firstNameBox;
         private System.Windows.Forms.TextBox passwordBox;
         private System.Windows.Forms.TextBox usernameBox;
->>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
+//>>>>>>> 045bbfb593ef64f1d2164bbb8f709c9adcd44e1b
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;

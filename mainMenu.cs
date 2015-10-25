@@ -106,6 +106,19 @@ namespace Squashids
             mainPanel.Visible = false;
             nidsPanel.Visible = true;
         }
+        private static void ShowNetworkTraffic()
+        {
+            PerformanceCounterCategory performanceCounterCategory = new PerformanceCounterCategory("Network Interface");
+            string instance = performanceCounterCategory.GetInstanceNames()[0]; // 1st NIC !
+            PerformanceCounter performanceCounterSent = new PerformanceCounter("Network Interface", "Bytes Sent/sec", instance);
+            PerformanceCounter performanceCounterReceived = new PerformanceCounter("Network Interface", "Bytes Received/sec", instance);
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("bytes sent: {0}k\tbytes received: {1}k", performanceCounterSent.NextValue() / 1024, performanceCounterReceived.NextValue() / 1024);
+                Thread.Sleep(500);
+            }
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
